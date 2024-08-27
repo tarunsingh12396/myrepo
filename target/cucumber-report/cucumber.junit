@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.235" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="Login Functionality" name="verify the login functionality with correct credentials" time="0.054">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;page.LoginPage.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "page.LoginPage.driver" is null
+	at page.LoginPage.user_enter_correct_username_and_correct_password(LoginPage.java:30)
+	at stepDefination.LoginPageSteps.user_enter_correct_and_correct(LoginPageSteps.java:44)
+	at ✽.user enter correct "standard_user" and correct "secret_sauce"(file:///C:/Users/chauh/Downloads/cucuproject/cucuproject.com/src/test/java/features/Login.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user launch the url...................................................passed
+When user enter correct "standard_user" and correct "secret_sauce"..........failed
+And user enter on login button..............................................skipped
+Then validate user navigate to home.........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="verify the login functionality with correct credentials - #1.1" time="0.005">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;page.LoginPage.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "page.LoginPage.driver" is null
+	at page.LoginPage.user_enter_correct_username_and_correct_password(LoginPage.java:30)
+	at stepDefination.LoginPageSteps.user_enter_correct_and_correct(LoginPageSteps.java:44)
+	at ✽.user enter correct "standard_user" and correct "secret_sauce"(file:///C:/Users/chauh/Downloads/cucuproject/cucuproject.com/src/test/java/features/Login.feature:22)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user launch the url...................................................passed
+When user enter correct "standard_user" and correct "secret_sauce"..........failed
+And user enter on login button..............................................skipped
+Then validate user navigate to home.........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

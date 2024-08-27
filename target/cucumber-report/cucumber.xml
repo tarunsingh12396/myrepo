@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.762" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Login Functionality" name="verify the login functionality with correct credentials" time="3.865">
+<system-out><![CDATA[
+Given user launch the url...................................................passed
+When user enter correct "standard_user" and correct "secret_sauce"..........passed
+And user enter on login button..............................................passed
+Then validate user navigate to home.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="verify the login functionality with correct credentials - #1.1" time="2.719">
+<system-out><![CDATA[
+Given user launch the url...................................................passed
+When user enter correct "standard_user" and correct "secret_sauce"..........passed
+And user enter on login button..............................................passed
+Then validate user navigate to home.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
